@@ -65,7 +65,7 @@ errors if the time rolls over between elements. For example, if a new minute beg
 between getting the minute and second, the values will be inconsistent. Using the
 following functions eliminates this problem
 ```
-time\_t t = now(); // store the current time in time variable t
+time_t t = now(); // store the current time in time variable t
 hour(t);          // returns the hour for the given time t
 minute(t);        // returns the minute for the given time t
 second(t);        // returns the second for the given time t
